@@ -1,0 +1,478 @@
+/*reglas generales*/
+contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ #cabecera {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ nav p {
+    margin: 0px;
+ }
+ hero {
+    display: flex;
+    background-image: url(/principal.jpg);
+    background-size: cover;
+    justify-content: space-evenly;
+    background-position-y: 80%;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+ }
+ body h2 {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+ }
+
+ .contenedor4 {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+ }
+
+ .contenedor5 {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+ }
+ 
+ .tarjeta7 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+ .tarjeta7 img {
+    max-width: 350px;
+   max-height: 300px;
+    height: auto;
+    width: auto\9;
+    border-color: lightgray;
+    border-style:solid;
+ 
+ }
+ .descripcion7 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .tarjeta8 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+ .tarjeta8 img {
+    max-width: 350px;
+   max-height: 300px;
+    height: auto;
+    width: auto\9;
+    border-color: lightgray;
+    border-style:solid
+ }
+ .descripcion8 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .tarjeta9 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+ .tarjeta9 img {
+    max-width: 350px;
+   max-height: 300px;
+    height: auto;
+    width: auto\9;
+    border-color: lightgray;
+    border-style:solid
+ }
+ .descripcion9 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .contenedor6 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+ }
+ 
+ .tarjeta10 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+
+ .descripcion10 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .tarjeta11 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+ .descripcion11 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .tarjeta12 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+ .descripcion12 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ }
+
+ @media (max-width: 640px) {
+
+  }
+/*Media Query*/
+
+/** Reescribir colores */
+nav {
+    background-color: rgb(236, 233, 233);
+}
+/** Productos */
+.contenedor1 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+ }
+.tarjeta1 {
+    display: flex;
+    height: fit-content;
+    width: max-content;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslategrey;
+    float :right;
+ }
+ .tarjeta1 img {
+   max-width: 500px;
+   max-height: 500px;
+    height: auto;
+    width: auto\9;
+    border-color: lightgray;
+    border-style:solid
+ }
+ .descripcion1 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .descripcion1 #boton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    padding: 15px 20px;
+    background-color: lightcoral;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+
+ .contenedor2 {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+ }
+.tarjeta2 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+ .tarjeta2 img {
+    max-width: 425px;
+    max-height: 425px;
+    height: auto;
+    width: auto\9;
+    border-color: lightgray;
+    border-style:solid;
+ 
+ }
+ .descripcion2 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .descripcion2 #boton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    padding: 15px 20px;
+    background-color: lightcoral;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+
+ }
+ .tarjeta3 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+ .tarjeta3 img {
+    max-width: 425px;
+    max-height: 425px;
+    height: auto;
+    width: auto\9;
+    border-color: lightgray;
+    border-style:solid
+ }
+ .descripcion3 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .descripcion3 #boton3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    padding: 15px 20px;
+    background-color: lightcoral;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+ 
+ .contenedor3 {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+ }
+.tarjeta4 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+ .tarjeta4 img {
+    max-width: 350px;
+   max-height: 300px;
+    height: auto;
+    width: auto\9;
+    border-color: lightgray;
+    border-style:solid;
+ 
+ }
+ .descripcion4 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .descripcion4 #boton4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    padding: 15px 20px;
+    background-color: lightcoral;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+ .tarjeta5 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+ .tarjeta5 img {
+    max-width: 350px;
+   max-height: 300px;
+    height: auto;
+    width: auto\9;
+    border-color: lightgray;
+    border-style:solid
+ }
+ .descripcion5 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .descripcion5 #boton5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    padding: 15px 20px;
+    background-color: lightcoral;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+ 
+ .tarjeta6 {
+    display: flex;
+    height: fit-content;
+    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+ }
+ .tarjeta6 img {
+    max-width: 350px;
+   max-height: 300px;
+    height: auto;
+    width: auto\9;
+    border-color: lightgray;
+    border-style:solid
+ }
+ .descripcion6 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .descripcion6 #boton6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    padding: 15px 20px;
+    background-color: lightcoral;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
